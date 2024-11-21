@@ -1,0 +1,55 @@
+.search-container {
+    text-align: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.search-bar {
+    width: 60%;
+    height: 45px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 20px 0;
+    margin: auto;
+    border-radius: 60px;
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.amount-input {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-body h3 {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 27px;
+    color: #10b4b0;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: solid #10b4b0 1px;
+    padding-top: 5px; */
+}
+
+.admin-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-add, .admin-subtract {
+    background-color: rgb(71, 255, 156);
+    color: white;
+    margin: 20px 0px 30px;
+    padding: 10px;
+    width: fit-content;
+    font-weight: 600;
+    transition: 0.5s;
+}

@@ -1,0 +1,45 @@
+.settings-container{
+    max-width: 1500px;
+    margin: auto;
+  }
+  
+.settings-close-button {
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 30px;
+    transform: translateY(-50%);
+  }
+  .settings-body {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    flex-wrap: wrap;
+  }
+  
+  .setting-option {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .settings-body h4{
+    margin: 20px 10px;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: #10b4b0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .setting-option {
+      margin-right: 0;
+    }
+  
+    .settings-body h4 {
+      font-size: 18px;
+    }
+  }

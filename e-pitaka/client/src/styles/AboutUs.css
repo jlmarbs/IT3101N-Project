@@ -1,0 +1,21 @@
+.aboutus-desc {
+  text-align: justify;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.aboutus-line {
+  height: 1px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.aboutus-h3 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.aboutus-title {
+  font-size: 2.5rem;
+}

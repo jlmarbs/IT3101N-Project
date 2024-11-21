@@ -1,0 +1,37 @@
+.send-form{
+  width: 70%;
+  margin: auto;
+}
+
+.send-input {
+  margin: 20px 0;
+}
+
+.send-input label {
+  margin-bottom: 5px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.next-button {
+  background-color: rgb(71, 255, 156);
+  color: white;
+  margin: 20px 0px 30px;
+  padding: 10px;
+  width: 50%;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.exist {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: red;
+}

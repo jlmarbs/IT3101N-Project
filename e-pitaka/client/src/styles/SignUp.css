@@ -1,0 +1,40 @@
+.sign-up-form {
+  max-width: 800px;
+  margin: 35px auto;
+}
+
+.input-area {
+  text-align: left;
+  margin: 20px;
+}
+
+.input-area input {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.sign-up-button {
+  background-color: rgb(71, 255, 156);
+  color: white;
+  margin: 25px 0px;
+  padding: 10px;
+  width: 200px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.sign-up-button:hover {
+  opacity: 80%;
+}
+
+.login-link {
+  color: rgb(71, 255, 156);
+  text-decoration: underline;
+}
+
+.sign-up-error {
+  text-align: center;
+  color: red;
+}

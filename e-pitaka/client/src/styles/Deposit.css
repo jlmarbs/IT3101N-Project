@@ -1,0 +1,41 @@
+.page-container{
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.line-color {
+  border-bottom: 1px solid #10b4b0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #10b4b0;
+  padding: 5px 25px;
+}
+
+.card-header h3{
+  font-size: 37px;
+}
+
+.close-button {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.deposit-body{
+  margin: 25px;
+}
+
+.deposit-body h4{
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 27px;
+  color: #10b4b0;
+}
+
+.deposit-body p{
+  font-size: 18px;
+  margin-bottom: 40px;
+}

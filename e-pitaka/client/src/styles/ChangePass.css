@@ -1,0 +1,54 @@
+.ChangePass-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChangePass-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChangePass-inner .changeP-close-btn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    right: 16px;
+
+}
+
+.changeP-form{
+    width: 100%;
+    max-width: 500px;
+}
+
+.change-input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.change-from-btn{
+    margin-top: 30px;
+    background-color: #47FF9C;
+    width: 70%;
+    font-weight: bold;
+    font-size: 20px;
+    color:#fff;
+}

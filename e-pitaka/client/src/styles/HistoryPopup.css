@@ -1,0 +1,58 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.popup-content{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gray;
+}
+
+.user-profile {
+    width: 70px;
+}
+
+.user-fullname{
+    margin: 0;
+    font-size: 24px;
+}
+
+.amount{
+    font-weight: 600;
+    color: #10b4b0;
+}
+
+.user-name{
+    font-size: 15px;
+}
+ 
+ .popup-close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    right: 16px;
+}
+ 
+.note-container{
+    padding: 0 20px;
+    text-align: left;
+}

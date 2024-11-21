@@ -1,0 +1,38 @@
+.delete-confirmation-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.delete-confirmation-modal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.yes-button {
+    background-color: rgb(71, 255, 156);
+    color: white;
+    margin: 20px 0px 30px;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.no-button {
+    background-color: red;
+    color: white;
+    margin: 20px 0px 30px;
+    font-weight: 600;
+    transition: 0.5s;
+    width: 100px;
+}

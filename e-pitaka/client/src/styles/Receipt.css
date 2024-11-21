@@ -1,0 +1,14 @@
+.receipt-container {
+    border-radius: 20px;
+}
+
+.receipt-title {
+    text-indent: 10px;
+    color: #10b4b0;
+}
+
+.receipt-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

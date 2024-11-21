@@ -1,0 +1,53 @@
+.history-container{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.close-button {
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: 30px;
+  transform: translateY(-50%);
+}
+
+.transaction-container {
+  padding: 13px 10px;
+}
+
+.transaction-container:hover{
+  background-color: #cdcdcd23;
+}
+
+.transaction-value {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sub {
+  color: red;
+}
+
+.add {
+  color: green;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+} 
+
+.empty-history{
+  margin: 50px;
+  text-align: center;
+  color: gray;
+}

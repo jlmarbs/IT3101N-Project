@@ -1,0 +1,90 @@
+.balance-container {
+  width: 80%;
+  max-width: 750px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 35px 30px 15px;
+}
+
+.balance-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.balance-header h3{
+  font-size: 23px;
+  color: #10b4b0;
+  font-family: "Lexend Mega", sans-serif;
+  margin: 0;
+}
+
+.hide-button {
+  padding: 0;
+  background-color: transparent;
+}
+
+.balance-value {
+  font-size: 32px;
+  color: #10b4b0;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+.img_hide {
+  width: 30px;
+  height: 30px;
+}
+
+
+.page-button-container {
+  padding: 25px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+}
+
+.page-button {
+  width: 90%;
+  min-width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.page-icon {
+  height: 80px;
+  margin: 10px auto;
+}
+
+.page-name {
+  font-size: 14px;
+  color: #10b4b0;
+  font-family: "Lexend Mega", sans-serif;
+  margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .balance-container{
+    width: 100%;
+  }
+  .balance-header h3{
+    font-size: 19px;
+  }
+  .balance-value{
+    font-size: 25px;
+  }
+  .img_hide{
+    visibility: hidden;
+  }
+}

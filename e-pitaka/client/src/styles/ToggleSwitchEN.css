@@ -1,0 +1,43 @@
+.toggle_EN{
+    --width: 60px;
+    --height: calc(var(--width)/2);
+    --border-radius: calc(var(--height)/2);
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.toggle_input_EN{
+    display: none;
+}
+
+.toggle_fill_EN{
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: #dddddd;
+    transition: background 0.2s;
+}
+
+.toggle_input_EN:checked ~ .toggle_fill_EN{
+    background: #10B4B0;
+}
+
+.toggle_fill_EN::after{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+}
+
+.toggle_input_EN:checked ~ .toggle_fill_EN::after{
+    transform: translateX(var(--height));
+    background: #47FF9C;
+}

@@ -1,0 +1,58 @@
+.confirm-container {
+    border-radius: 20px;
+  }
+  
+  .confirm-title {
+    text-indent: 10px;
+    color: #10b4b0;
+  }
+  
+  .confirm-title h1 {
+    margin-bottom: 10px;
+  }
+  
+  .confirm-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .user-profile-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .user-details {
+    text-align: center;
+  }
+  
+  .amount-section {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .confirm-leftside {
+    flex: 1;
+    text-align: left;
+  }
+
+  .confirm-rightside {
+    flex: 1;
+    text-align: right;
+    padding-right: 5px;
+  }
+  
+  h3, h5 {
+    margin: 5px 0;
+  }
+  
+  .line-below-amount {
+    border: 1px solid #10b4b0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .error {
+    background-color: red;
+  }

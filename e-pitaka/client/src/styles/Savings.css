@@ -1,0 +1,31 @@
+.savings-container{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.savings-body {
+  padding: 0 60px;
+}
+
+.savings-body p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.savings-body h3 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 350px;
+  margin: auto;
+  margin-bottom: 100px;
+  color: #333;
+}
